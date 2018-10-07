@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	background: #fcfbed;
+	color: #111;
+}
+
+a {
+	color: #111;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+span {
+	font-weight: 700;
+}
+
+.header,
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	height: 100vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+	display: flex;
+	width: 85vw;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	padding: 70px 0;
+}
+
+.top-title {
+	font-family: 'Inconsolata', monospace; 
+}
+
+.top-title h1 {
+	font-size: 24pt;
+	padding: 25px;
+	border: 3px solid #222;
+}
+
+.top-title h2 {
+	font-size: 11pt;
+	font-weight: 100;
+	margin-top: 10px;
+	letter-spacing: 4px;
+}
+
+.contents {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.hdr-col {
+	font-family: 'Special Elite', cursive;
+	font-size: 16pt;
+	width: 20%;
+}
+
+.hdr-col::after {
+	content: " .";
+}
+
+.text-col {
+	width: 70%;
+	font-family: 'Inconsolata', monospace; 
+	line-height: 1.5;	
+}
+
+.text-col p {
+	text-align: justify;
+}
+
+.ico {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.fab {
+	font-size: 50px;
+}
+
+.logo {
+	background-size: contain;
+	width: 52px;
+	height: 52px;
+}
+
+.ps {
+	background-image: url(../img/ps-logo.png);
+}
+
+.jq {
+	background-image: url(../img/jquery-logo.png);
+}
+
+.oop {
+	background-image: url(../img/oop-logo.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 80px;
+}
+
+figure {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: #fffffdcc;
+	padding: 20px 20px 15px;
+	box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,0.2);
+}
+
+img {
+	height: 72vh;
+	box-shadow: 0 0 15px 1px #aaa;
+	margin: 10px auto;
+}
+
+figure img:last-of-type {
+	height: 80vh;
+}
+
+figcaption {
+	margin-left: 20px;
+	font-size: 9pt;
+	opacity: .7;
+}
+
+.tel,
+.skype {
+	margin-top: 15px;
+}
