@@ -17,6 +17,10 @@ a:hover {
 	opacity: .7;
 }
 
+span {
+	font-weight: 700;
+}
+
 .header,
 section {
 	display: flex;
@@ -143,5 +147,5 @@ figcaption {
 
 .tel,
 .skype {
-	margin-top: 10px;
+	margin-top: 15px;
 }
