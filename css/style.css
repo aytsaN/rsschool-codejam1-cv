@@ -9,6 +9,14 @@ body {
 	color: #111;
 }
 
+a {
+	color: #111;
+}
+
+a:hover {
+	opacity: .7;
+}
+
 .header,
 section {
 	display: flex;
@@ -131,4 +139,9 @@ figcaption {
 	margin-left: 20px;
 	font-size: 9pt;
 	opacity: .7;
+}
+
+.tel,
+.skype {
+	margin-top: 10px;
 }
